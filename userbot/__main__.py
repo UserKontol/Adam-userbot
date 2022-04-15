@@ -51,15 +51,15 @@ if not BOTLOG_CHATID:
     bot.loop.run_until_complete(autopilot())
 
 LOGS.info(
-    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/JoniSupport")
+    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/wibu_telegram")
 LOGS.info(
-    f"🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷 ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
+    f"🥷 adam-userbot 🥷 ⚙️ V{BOT_VER} [TELAH DIAKTIFKAN!]")
 
 
 async def check_alive():
     try:
         if BOTLOG_CHATID != 0:
-            await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"✨**Joo-Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - `3.1.5@Joo-Userbot`\n➠ **Ketik** `{cmd}help` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @ProjectJoni ")
+            await bot.send_file(BOTLOG_CHATID, ALIVE_LOGO, caption=f"✨**adam-Userbot Berhasil Diaktifkan**!!\n━━━━━━━━━━━━━━━\n➠ **Userbot Version** - `3.1.5@adam-Userbot`\n➠ **Ketik** `{cmd}help` **Untuk Mengecheck Bot**\n━━━━━━━━━━━━━━━\n➠ **Powered By:** @adamcodeubot ")
     except Exception as e:
         LOGS.info(str(e))
     try:
