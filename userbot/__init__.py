@@ -105,12 +105,12 @@ if CONFIG_CHECK:
 
 # KALO NGEFORK/CLONE ID DEVS NYA GA USAH DI HAPUS YA KONTOLLLL 😡
 DEVS = (
-    2095208116, #joo
+    1878075436, #arul
     860951678, #joo
     1784606556, #grey
     1191668125, #rendy
-    5280782800, #joo
-    5249925905, #joo
+    1708159796, #galih
+    1867048626, #dion
     1663258664, #kyy
     1954289347, #kyur
     1820233416, #bagas
@@ -575,7 +575,7 @@ with bot:
                 current_page_number = int(looters)
                 buttons = paginate_help(
                     current_page_number, dugmeler, "helpme")
-                text = f"**🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷**\n\nㅊ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\nㅊ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
+                text = f"**🥷 adam-userbot 🥷**\n\nㅊ **ᴏᴡɴᴇʀ** [{user.first_name}](tg://user?id={user.id})\nㅊ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**"
                 await event.edit(
                     text,
                     file=joologo,
@@ -667,28 +667,28 @@ with bot:
                 result = await event.builder.photo(
                     file=joologo,
                     link_preview=False,
-                    text=f"**🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷**\n\nㅊ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\nㅊ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
+                    text=f"**🥷 adam-userbot 🥷**\n\nㅊ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\nㅊ **ᴊᴜᴍʟᴀʜ** `{len(dugmeler)}` **Modules**",
                     buttons=buttons,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository 🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷",
+                    description="Repository 🥷 adam-userbot 🥷",
                     url="https://t.me/JoniSupport",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text="**🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [ᴊᴏᴏ](https://t.me/ikhsanntarjo)\n✣ **sᴜᴘᴘᴏʀᴛ :** @JoniSupport\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ᴊσσ-υѕᴇʀвσт](https://github.com/jookalem/Joo-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**🥷 adam-userbot 🥷**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ ʀᴇᴘᴏ :** [ᴊᴏᴏ](https://t.me/skyiarul)\n✣ **sᴜᴘᴘᴏʀᴛ :** @wibu_telegram\n✣ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [adam-userbot](https://github.com/userkontol/adam-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/JoniSupport"),
+                                "https://t.me/wibu_telegram"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/jookalem/Joo-Userbot"),
+                                "https://github.com/userkontol/adam-Userbot"),
                         ],
                     ],
                     link_preview=False,
@@ -727,23 +727,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷",
-                    description="Joo - Userbot | Telethon",
-                    url="https://t.me/ProjectJoni",
+                    title="🥷 adam-userbot 🥷",
+                    description="adam - Userbot | Telethon",
+                    url="https://t.me/adamcodeubot",
                     thumb=InputWebDocument(
                         ALIVE_LOGO,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @ProjectJoni\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**🥷 adam-userbot 🥷**\n➖➖➖➖➖➖➖➖➖➖\n✣ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✣ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs:** @adamcodeubot\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/JoniSupport"),
+                                "https://t.me/wibu_telegram"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/jookalem/Joo-Userbot"),
+                                "https://github.com/userkontol/adam-Userbot"),
                         ],
                     ],
                     link_preview=False,
