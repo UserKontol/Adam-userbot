@@ -229,10 +229,10 @@ async def upstream(event):
     else:
         await xx.edit("` Proses Update ✨adam-userbot✨, Loading....1%`")
         await xx.edit("` Proses Update ✨adam-userbot✨ Loading....20%`")
-        await xx.edit("` Proses Update ✨ᴊᴏᴏ-ᴜѕᴇʀʙᴏᴛ✨, Loading....35%`")
-        await xx.edit("` Proses Update ✨ᴊᴏᴏ-ᴜѕᴇʀʙᴏᴛ✨, Loading....77%`")
-        await xx.edit("` Proses Update ✨ᴊᴏᴏ-ᴜѕᴇʀʙᴏᴛ✨, Updating...90%`")
-        await xx.edit("` Proses Update ✨ᴊᴏᴏ-ᴜѕᴇʀʙᴏᴛ✨, Mohon Tunggu Sebentar....100%`")
+        await xx.edit("` Proses Update ✨adam-userbot✨, Loading....35%`")
+        await xx.edit("` Proses Update ✨adam-userbot✨, Loading....77%`")
+        await xx.edit("` Proses Update ✨adam-userbot✨, Updating...90%`")
+        await xx.edit("` Proses Update ✨adam-userbot✨, Mohon Tunggu Sebentar....100%`")
 
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
@@ -248,10 +248,10 @@ async def upstream(event):
 CMD_HELP.update(
     {
         "update": f"𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}update`"
-        "\n• : Untuk Melihat Pembaruan Terbaru Joo-Userbot."
+        "\n• : Untuk Melihat Pembaruan Terbaru adam-Userbot."
         f"\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}update now`"
-        "\n• : Memperbarui Joo-Userbot."
+        "\n• : Memperbarui adam-Userbot."
         f"\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `{cmd}update deploy`"
-        "\n• : Memperbarui Joo-Userbot Dengan Cara Men-Deploy Ulang."
+        "\n• : Memperbarui adam-Userbot Dengan Cara Men-Deploy Ulang."
     }
 )
