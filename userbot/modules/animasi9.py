@@ -19,8 +19,8 @@ async def _(event):
     sleep(1)
     await xx.edit("gasukaa😫")
     sleep(1)
-    await xx.edit("__GELAYY__🤮")    
-   
+    await xx.edit("__GELAYY__🤮")
+
 
 @joo_cmd(pattern="kntl(?: |$)(.*)")
 async def _(event):
@@ -28,7 +28,7 @@ async def _(event):
     sleep(1)
     await xx.edit("se**KONT0L** **K0NTOL** nya si **K0NTOL**")
     sleep(1)
-    await xx.edit("lebih **KONTOL** lagi")              
+    await xx.edit("lebih **KONTOL** lagi")
     sleep(1)
     await xx.edit("kalian")
     await xx.edit("kalian **K**")
@@ -96,11 +96,11 @@ async def _(event):
     await xx.edit("Bersama Kuli Membangun Negri")
     sleep(1)
     await xx.edit("eh salah salah, \nBersama **Jawa** Membangun Negri")
-    
-    
+
+
 CMD_HELP.update(
     {
-    "animasi9": f"**Perintah**: **animasi9**\
+        "animasi9": f"**Perintah**: **animasi9**\
     \n**Total Command: 6**\
     \n\nㅤㅤ•**Syntax**: {cmd}hai\
     \n•**Function**: __Cosplay Nissa Sablon__\
@@ -119,5 +119,5 @@ CMD_HELP.update(
     \n\nㅤㅤ•**Syntax**: {cmd}jawa\
     \n•**Function**: __Jawa Pride Ni Bos.__"
 
-   
-})
+
+    })

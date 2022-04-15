@@ -27,7 +27,7 @@ async def _(event):
     except Exception:
         await event.edit("PPCP nya gaada karena lu jelek _-.")
 
-   
+
 CMD_HELP.update(
     {
         "ppcouple": f"**Plugin : **ppcouple\

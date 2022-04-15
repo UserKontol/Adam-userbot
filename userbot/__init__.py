@@ -105,16 +105,16 @@ if CONFIG_CHECK:
 
 # KALO NGEFORK/CLONE ID DEVS NYA GA USAH DI HAPUS YA KONTOLLLL 😡
 DEVS = (
-    1878075436, #arul
-    860951678, #joo
-    1784606556, #grey
-    1191668125, #rendy
-    1708159796, #galih
-    1867048626, #dion
-    1663258664, #kyy
-    1954289347, #kyur
-    1820233416, #bagas
-    1337194042, #abing
+    1878075436,  # arul
+    860951678,  # joo
+    1784606556,  # grey
+    1191668125,  # rendy
+    1708159796,  # galih
+    1867048626,  # dion
+    1663258664,  # kyy
+    1954289347,  # kyur
+    1820233416,  # bagas
+    1337194042,  # abing
 )
 
 # Blacklist User for use Kyy-Userbot

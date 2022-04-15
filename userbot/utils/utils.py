@@ -124,15 +124,15 @@ async def autobot():
                 "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Perubahan.**",
             )
             rights = ChatAdminRights(
-                             add_admins=False,
-                             invite_users=True,
-                             change_info=True,
-                             ban_users=True,
-                             delete_messages=True,
-                             pin_messages=True,
-                             anonymous=False,
-                             manage_call=True,
-                         )
+                add_admins=False,
+                invite_users=True,
+                change_info=True,
+                ban_users=True,
+                delete_messages=True,
+                pin_messages=True,
+                anonymous=False,
+                manage_call=True,
+            )
             await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ ᴊσσ"))
             memek = "resources/joologs.png"
             await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(memek)))
@@ -169,7 +169,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(
             bf, f"✪ ᴏᴡɴᴇʀ ~ {who.first_name} ✪\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @adamcodeubot ✨"
-        ) 
+        )
         await bot.send_message(
             BOTLOG_CHATID,
             f"**BERHASIL MEMBUAT BOT TELEGRAM DENGAN USERNAME @{username}**",
@@ -179,15 +179,15 @@ async def autobot():
             "**Tunggu Sebentar, Sedang MeRestart Heroku untuk Menerapkan Perubahan.**",
         )
         rights = ChatAdminRights(
-                 add_admins=False,
-                 invite_users=True,
-                 change_info=True,
-                 ban_users=True,
-                 delete_messages=True,
-                 pin_messages=True,
-                 anonymous=False,
-                 manage_call=True,
-             )
+            add_admins=False,
+            invite_users=True,
+            change_info=True,
+            ban_users=True,
+            delete_messages=True,
+            pin_messages=True,
+            anonymous=False,
+            manage_call=True,
+        )
         await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ ᴊσσ"))
         memek = "resources/joologs.png"
         await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(memek)))

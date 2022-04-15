@@ -5,16 +5,13 @@
     Information Superhighway (yes, Internet). """
 
 import random
-import time
 
 
-from datetime import datetime
 
 from userbot import (
-    DEVS, 
-    StartTime,
+    DEVS,
 )
-    
+
 from userbot.events import register
 
 # CPING
@@ -37,6 +34,7 @@ afk = [
     "**Baik Lord**!🙏 ",
     "**Fvck You Joo!**😖",
 ]
+
 
 async def get_readable_time(seconds: int) -> str:
     count = 0
@@ -68,12 +66,13 @@ async def get_readable_time(seconds: int) -> str:
 @register(incoming=True, from_users=DEVS, pattern=r"^.cping$")
 async def _(joo):
     await joo.reply(random.choice(cping))
-    
+
 
 @register(incoming=True, from_users=DEVS, pattern=r"^brb$")
 async def _(joo):
     await joo.reply(random.choice(brb))
-                      
+
+
 @register(incoming=True, from_users=DEVS, pattern=r"^afk$")
 async def _(joo):
     await joo.reply(random.choice(afk))

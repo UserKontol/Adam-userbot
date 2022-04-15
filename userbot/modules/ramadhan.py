@@ -1,10 +1,11 @@
 # ReCode by @ikhsanntarjo
 # FROM Joo-Userbot <https://github.com/jookalem/Joo-Userbot>
-# MEMEK GA USAH DI APUS MEMEK CREDIT NYA 
+# MEMEK GA USAH DI APUS MEMEK CREDIT NYA
 
 from time import sleep
 from userbot import CMD_HELP, CMD_HANDLER as cmd
 from userbot.utils import edit_or_reply, joo_cmd
+
 
 @joo_cmd(pattern='maaf(?: |$)(.*)')
 async def typewriter(typew):
@@ -32,6 +33,7 @@ async def typewriter(typew):
 
 # Create by myself @ikhsanntarjo
 
+
 @joo_cmd(pattern='nyemen(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -47,6 +49,7 @@ async def typewriter(typew):
     await jo.edit("`istighfar bro`")
 
 # Create by myself @ikhsanntarjo
+
 
 @joo_cmd(pattern='puasa(?: |$)(.*)')
 async def typewriter(typew):
@@ -92,6 +95,7 @@ async def typewriter(typew):
     await jo.edit("`SELAMAT SAUR SAYANG 🤗`")
 
 # Create by myself @ikhsanntarjo
+
 
 @joo_cmd(pattern="imsak(?: |$)(.*)")
 async def typewriter(typew):

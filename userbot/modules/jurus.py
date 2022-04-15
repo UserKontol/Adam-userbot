@@ -3,7 +3,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 
 from userbot.utils import joo_cmd
 from userbot import bot, TEMP_DOWNLOAD_DIRECTORY
-from userbot import CMD_HELP, CMD_HANDLER as cmd
+from userbot import CMD_HELP
 
 
 @joo_cmd(pattern=r"jurus(:? |$)([1-8])?")

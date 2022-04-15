@@ -1,6 +1,6 @@
 # Copyright (C) 2022 Joo - Userbot
 # Created by Joo
-# Jangan Hapus Credit Ngentod!! 
+# Jangan Hapus Credit Ngentod!!
 
 
 from time import sleep
