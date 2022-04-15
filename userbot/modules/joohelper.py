@@ -8,10 +8,10 @@ from userbot.utils import edit_or_reply, joo_cmd
 async def usit(e):
     await edit_or_reply(e,
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
-                        "\n[Telegram](t.me/ikhsanntarjo)"
-                        "\n[Grup Support](t.me/JoniSupport)"
-                        "\n[Repo](https://github.com/jookalem/Joo-Userbot)"
-                        "\n[Instagram](instagram.com/ikhsantarjo)")
+                        "\n[Telegram](t.me/skyiarul)"
+                        "\n[Grup Support](t.me/wibu_telegram)"
+                        "\n[Repo](https://github.com/userkontol/adam-Userbot)"
+                        "\n[Instagram](instagram.com/muhadam1818)")
 
 
 @joo_cmd(pattern="vars$")
@@ -24,7 +24,7 @@ async def var(m):
 CMD_HELP.update({
     "helper":
     f"`{cmd}lhelp`\
-\nUsage: Bantuan Untuk Joo-Userbot.\
+\nUsage: Bantuan Untuk adam-Userbot.\
 \n`{cmd}vars`\
 \nUsage: Melihat Daftar Vars."
 })
