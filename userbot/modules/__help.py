@@ -32,7 +32,7 @@ async def cmd_list(event):
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
-            await edit_or_reply(event, f"**ރ Commands Available In {args} ރ** \n\n" + str(CMD_HELP[args]) + "\n\n**☞ @ProjectJoni**")
+            await edit_or_reply(event, f"**ރ Commands Available In {args} ރ** \n\n" + str(CMD_HELP[args]) + "\n\n**☞ @adamcodeubot**")
         else:
             await edit_delete(event, f"**Module** `{args}` **Tidak Tersedia!**")
     else:
