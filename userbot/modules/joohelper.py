@@ -1,4 +1,6 @@
-import CMD_HELP, owner, CMD_HANDLER as cmd
+import CMD_HELP
+import owner
+import CMD_HANDLER as cmd
 from userbot.utils import edit_or_reply, joo_cmd
 
 
