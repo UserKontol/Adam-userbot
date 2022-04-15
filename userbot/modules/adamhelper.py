@@ -1,6 +1,6 @@
 """ Userbot module for other small commands. """
 from userbot import CMD_HELP, owner, CMD_HANDLER as cmd
-from userbot.utils import edit_or_reply, joo_cmd
+from userbot.utils import edit_or_reply
 
 
 @adam_cmd(pattern="lhelp$")
