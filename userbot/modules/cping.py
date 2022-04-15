@@ -23,7 +23,7 @@ cping = [
 ]
 
 brb = [
-    "**Siap Lord Joo!😈** ",
+    "**Siap Lord adam!😈** ",
     "**Siap Lord!🙏** ",
     "**Siap Owner Ganteng!🤗** ",
 ]
@@ -31,7 +31,7 @@ brb = [
 afk = [
     "**Laporan Di Terima Lord!👿**! ",
     "**Baik Lord**!🙏 ",
-    "**Fvck You Joo!**😖",
+    "**Fvck You adam!**😖",
 ]
 
 
