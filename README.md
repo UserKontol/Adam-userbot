@@ -75,3 +75,4 @@
 *   [Alfa](https://github.com/CoeF) Alfa-Userbot
 *   [Tede](https://github.com/tofikdn/tofikdn) Tede-Ubot
 *   [Vegeta](https://github.com/Randi356) Vegeta-Userbot
+*   [Adam](https://github.com/userkontol/adam-userbot) Adam-userbot
