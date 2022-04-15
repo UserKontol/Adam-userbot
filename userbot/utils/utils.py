@@ -51,7 +51,7 @@ async def autobot():
     if who.username:
         username = who.username + "_Ubot"
     else:
-        username = "Joo" + (str(who.id))[5:] + "Ubot"
+        username = "adam" + (str(who.id))[5:] + "Ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -84,7 +84,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "Joo" + (str(who.id))[6:] + str(ran) + "Ubot"
+        username = "adam" + (str(who.id))[6:] + str(ran) + "Ubot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -113,7 +113,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"✪ ᴏᴡɴᴇʀ ~ {who.first_name} ✪\n\n✪ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @ProjectJoni ✪"
+                bf, f"✪ ᴏᴡɴᴇʀ ~ {who.first_name} ✪\n\n✪ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @adamcodeubot ✪"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -168,8 +168,8 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"✪ ᴏᴡɴᴇʀ ~ {who.first_name} ✪\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @ProjectJoni ✨"
-        )
+            bf, f"✪ ᴏᴡɴᴇʀ ~ {who.first_name} ✪\n\n✨ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ~ @adamcodeubot ✨"
+        ) 
         await bot.send_message(
             BOTLOG_CHATID,
             f"**BERHASIL MEMBUAT BOT TELEGRAM DENGAN USERNAME @{username}**",
@@ -311,8 +311,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="「𝙅𝙊𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏」𝙇𝙊𝙂𝙎",
-                about="𝙂𝙧𝙤𝙪𝙥 𝙇𝙤𝙜𝙨 🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷\n\n 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 @ProjectJoni",
+                title="「𝘼𝘿𝘼𝙈-𝙐𝙎𝙀𝙍𝘽𝙊𝙏」𝙇𝙊𝙂𝙎",
+                about="𝙂𝙧𝙤𝙪𝙥 𝙇𝙤𝙜𝙨 🥷 ᴊσσ-ᴜѕᴇʀвσт 🥷\n\n 𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 @adamcodeubot",
                 megagroup=True,
             ),
         )
