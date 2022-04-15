@@ -4,7 +4,7 @@ import CMD_HANDLER as cmd
 from userbot.utils import edit_or_reply, joo_cmd
 
 
-@joo_cmd(pattern="lhelp$")
+@adam_cmd(pattern="lhelp$")
 async def usit(e):
     await edit_or_reply(e,
                         f"**Halo {owner} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{cmd}help` Atau Bisa Minta Bantuan Ke:\n"
@@ -14,7 +14,7 @@ async def usit(e):
                         "\n[Instagram](instagram.com/muhadam1818)")
 
 
-@joo_cmd(pattern="vars$")
+@adam_cmd(pattern="vars$")
 async def var(m):
     await edit_or_reply(m,
                         f"**Disini Daftar Vars Dari {owner}:**\n"
