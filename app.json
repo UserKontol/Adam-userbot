@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/jookalem/Joo-Userbot/Joo-Userbot",
-  "telegram": "https://t.me/ikhsanntarjo",
-  "success_url": "https://t.me/ProjectJoni",
+  "repository": "https://github.com/userkontol/adam-Userbot/Joo-Userbot",
+  "telegram": "https://t.me/skyiarul",
+  "success_url": "https://t.me/adamcodeubot",
   "stack": "container",
   "env": {
     "API_KEY": {
